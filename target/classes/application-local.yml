@@ -1,0 +1,14 @@
+spring.jpa:
+  hibernate.ddl-auto: ""
+spring:
+  jpa:
+    show-sql: true
+  devtools:
+    restart:
+      enabled: false
+      additional-jvm-args: -noverify
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    password: postgres
+    url: jdbc:postgresql://localhost:5432/adeo?currentSchema=public
+    username: postgres
